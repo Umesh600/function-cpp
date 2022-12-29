@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+void maxi(int n1, int n2)
+{
+    if(n1>n2) {
+        cout <<"the no is greater" << n1;
+    } else {
+        cout << " the no is greater" << n2;
+    }
+}
+
+int main()
+{
+    int n1,n2;
+
+    cout << "Enter first no :"  ;
+    cin >> n1;
+
+    cout << "Enter second  no:" ;
+    cin >> n2;
+    maxi(n1,n2);
+
+    return 0;
+}
